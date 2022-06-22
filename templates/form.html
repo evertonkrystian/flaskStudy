@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="{{url_for('static', filename = 'cs/app.css')}}">
+    </head>
+    <body>
+        <form method="POST" action="/form">
+            <input type="text" name="name">
+            <input type="text" name="age">
+            <button type="submit">Click</button>
+        </form>
+        
+    </body>
+</html>
