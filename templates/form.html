@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -15,4 +15,14 @@
         </form>
         
     </body>
-</html>
+</html> -->
+
+{% extends "layout.html" %}
+
+{% block main%} 
+    <form method="POST" action="/form">
+        <input type="text" name="name">
+        <input type="text" name="age">
+        <button type="submit">Click</button>
+    </form>
+{% endblock %}
